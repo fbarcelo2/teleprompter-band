@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Teleprompter
+Comment=Franja de teleprompter en el borde superior de la pantalla
+Exec=@PYTHON@ @DIR@/teleprompter.py --config @DIR@/config.json --toggle
+Icon=@DIR@/icon.png
+Terminal=false
+Categories=AudioVideo;
