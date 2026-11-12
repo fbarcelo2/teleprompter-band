@@ -7,8 +7,8 @@ TARGET="${XDG_DATA_HOME:-$HOME/.local/share}/applications/teleprompter.desktop"
 PYTHON="$(command -v python3)"
 
 if [ ! -f "$HERE/guion.txt" ]; then
-    echo "Falta guion.txt junto a teleprompter.py" >&2
-    exit 1
+    cp "$HERE/ejemplo.txt" "$HERE/guion.txt"
+    echo "Creado guion.txt a partir de ejemplo.txt (editalo con tu texto)."
 fi
 
 mkdir -p "$(dirname "$TARGET")"

@@ -72,6 +72,9 @@ python3 teleprompter.py --command {toggle,show,hide,pause,faster,slower,back,for
 
 ## The script
 
+The repo ships `ejemplo.txt`; `install.sh` copies it to `guion.txt`, which is git-ignored so
+your own text never lands in a commit.
+
 Plain text. A blank line separates paragraphs, lines are joined into one continuous thread,
 and two prefixes are not read aloud:
 
