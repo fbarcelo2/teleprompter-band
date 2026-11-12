@@ -1,0 +1,18 @@
+# Demo
+# Todo lo que no empieza con # ni con > se lee en pantalla.
+# Las líneas se unen en un solo hilo continuo, así que podés escribir renglones
+# de cualquier largo.
+
+> Este archivo es una demo del formato. Reemplazalo por tu guion.
+
+# Bienvenida
+Este es un teleprompter de una sola línea. El texto se desplaza de derecha a izquierda delante de una cabeza de lectura fija, así que los ojos se quedan en un solo punto y no se los ve recorriendo el texto en cámara.
+
+# Cómo se usa
+Apretá la barra espaciadora para arrancar y para pausar. Con más y menos ajustás el ritmo, y con las flechas corregís si te adelantaste o te atrasaste. La rueda del mouse sobre la banda hace lo mismo que más y menos.
+
+# Guiones largos
+Una línea en blanco separa párrafos. Las líneas que empiezan con numeral son títulos de sección: no se leen, pero aparecen en el menú del botón derecho para saltar a ese bloque.
+
+# Cierre
+Guardá el archivo y la banda lo recarga sola en medio segundo, conservando la posición en la que estabas leyendo.
